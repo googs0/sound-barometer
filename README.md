@@ -1,4 +1,4 @@
-# A tiny real-time loudness “barometer.” 
+# A tiny real-time loudness “barometer” 
 Captures mic input, computes A-weighted LAeq in short windows, and paints the window blue to red from quiet to loud. A white dot flashes on new peaks.
 
 ## Features
