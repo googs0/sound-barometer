@@ -9,9 +9,9 @@ Captures mic input, computes A-weighted LAeq in short windows, and paints the wi
 - Lightweight GUI via pygame
 
 ## Controls
-`Q` / `ESC` = quit \
-`+` / `-` = adjust CAL_DB_OFFSET (rough dB alignment) \ 
-`1` / `2` = shrink/grow analysis window (faster vs steadier) \ 
+- `Q` / `ESC` = quit 
+- `+` / `-` = adjust CAL_DB_OFFSET (rough dB alignment)  
+- `1` / `2` = shrink/grow analysis window (faster vs steadier) 
 
 
 ## Notes & Calibration
