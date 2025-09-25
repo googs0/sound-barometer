@@ -8,6 +8,7 @@ Captures mic input, computes A-weighted LAeq in short windows, and paints the wi
 - Peak flash indicator (simple relative peak)
 - Lightweight GUI via pygame
 
+
 ## Controls
 `Q` / `ESC` = quit 
 
@@ -19,6 +20,7 @@ Captures mic input, computes A-weighted LAeq in short windows, and paints the wi
 ## Notes & Calibration
 - LAeq here is relative without a reference. If you have a known level (e.g., a calibrated SLM reading or a 1 kHz sine at a known dB SPL), nudge `CAL_DB_OFFSET` to line up.
 - Sample rate default is 48 kHz; change to 44.1 kHz if your device prefers it.
+
 
 ## Troubleshooting
 - No audio / device error: Select a specific input device in the code (`DEVICE = <index or name>`).
