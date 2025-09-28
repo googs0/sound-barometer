@@ -1,6 +1,7 @@
 # Sound Barometer (LAeq → Color) 
-# Minimal real-time "thermometer" that maps A-weighted loudness to a color bar.
-# Blue = quiet, Red = loud. Includes a simple peak-hold flash.
+# Minimal real-time "barometer" that maps A-weighted loudness to a color bar.
+# Blue = quiet, Red = loud. 
+# Includes a simple peak-hold flash.
 
 # Dependencies:
 # pip install numpy sounddevice pygame
