@@ -8,7 +8,6 @@
 - Peak flash indicator (simple relative peak)
 - Lightweight GUI via pygame
 
----
 
 ## Controls
 `Q` / `ESC` = quit 
@@ -17,7 +16,6 @@
 
 `1` / `2` = shrink/grow analysis window (faster vs steadier) 
 
----
 
 ## Notes & Calibration
 - LAeq here is relative without a reference. If you have a known level (e.g., a calibrated SLM reading or a 1 kHz sine at a known dB SPL), nudge `CAL_DB_OFFSET` to line up
