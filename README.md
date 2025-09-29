@@ -1,7 +1,7 @@
 # A tiny real-time loudness 'barometer' 
 (1) Captures mic input \
-(2) computes A-weighted LAeq in short windows  \ 
-(3) and paints the window blue to red from quiet to loud \
+(2) computes A-weighted LAeq in short windows \
+(3) and paints the window blue to red from quiet to loud
 
 ## Features
 
