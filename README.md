@@ -16,7 +16,7 @@
 
 `+` / `-` = adjust CAL_DB_OFFSET (rough dB alignment)  
 
-`1` / `2` = shrink/grow analysis window (faster vs steadier) 
+`1` / `2` = shrink/grow analysis window (fast vs steady) 
 
 
 ## Notes & Calibration
