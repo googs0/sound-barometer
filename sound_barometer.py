@@ -1,7 +1,7 @@
 # Sound Barometer (LAeq → Color) 
-# Minimal real-time "barometer" that maps A-weighted loudness to a color bar.
-# Blue = quiet, Red = loud. 
-# Includes a simple peak-hold flash.
+# Minimal real-time "barometer" that maps A-weighted loudness to a color bar
+# Blue = quiet, Red = loud
+# Includes a simple peak-hold
 
 # Dependencies:
 # pip install numpy sounddevice pygame
@@ -24,7 +24,7 @@ import sounddevice as sd
 import pygame
 
 # Config
-FS = 48000                # sample rate (Hz); Use 44100 if device prefers it.
+FS = 48000                # sample rate (Hz); Use 44100 if you prefer
 WINDOW_SEC = 1.0          # analysis window length in seconds
 CAL_DB_OFFSET = 0.0       # manual dB offset to "calibrate" the readout (relative)
 PEAK_HOLD_SEC = 0.75      # duration of little white flash when a higher peak occurs
